@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyun</title>
+    <link rel="stylesheet" href="game.css">
+    <style>
+        canvas{
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body>
+    <div id="skor"></div>
+    <div id="kills"></div>
+    <div id="start" class="panel">
+        <h2>Kodlama-TR</h2>
+        <p>Düşmanlara Karşı Kendini Koru !</p>
+        <button onclick="init();">Oyuna Başla</button><br>
+        <button  id="btn2" onclick="">Geri</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="game.js"></script>
+    <script>
+
+        document.querySelector("#btn2").onclick=function()
+        {
+            window.location.href="https://kodlamatr.xyz";
+        }
+
+    </script>
+</body>
+</html>

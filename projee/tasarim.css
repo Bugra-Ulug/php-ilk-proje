@@ -1,0 +1,51 @@
+body{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.form{
+    width: 400px;
+    padding: 10px;
+    border: solid thin #ddd;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 15px;
+}
+.form input{
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: solid thin #ddd;
+}
+.btn{
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form span{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form textarea{
+  width: 50%;
+}
+
+.list{
+  padding: 3px;
+  background: #def1ff;
+  margin-bottom: 5px;
+}
+.list span{
+  font-weight: 700;
+}
+.list p{
+  padding: 5px;
+}
